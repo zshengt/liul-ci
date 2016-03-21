@@ -1,0 +1,75 @@
+@charset "utf-8";
+html,head,body,tr,td,ul,li{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*head*/
+.catalog{
+	height: 80px;
+	width: 100%;
+	background-color: rgb(242,239,230);
+	color: black;
+	display:table;
+}
+.logo{
+	height: 80px;
+	float: left;
+	margin-left: 20px;
+}
+.logo img{
+	height: 80px;
+	width: 80px;
+}
+.area{
+	display:table-cell;
+	vertical-align:middle;
+	width: 300px;
+	margin-left: 300px;
+}
+/*main*/
+.main{
+	width: 95%;
+	margin: 0px auto;
+}
+
+.left{
+	float: left;
+	margin-top: 20px;
+	width: 20%;
+	min-height:500px; 
+}
+
+.more{
+	float: right;
+	margin-right: 0px;
+}
+
+.right{
+	float: right;
+	margin-top: 20px;
+	width: 78%;
+	min-height:500px;  
+}
+
+.search{
+	padding-bottom: 40px;
+}
+
+.book_text{
+	width: 140px;
+}
+
+.book_button{
+	float: right;
+}
+
+.title{
+	text-align: center;
+}
+
+.info{
+	margin-left: 500px;
+	margin-top: 10px;
+	width: 300px;
+}
